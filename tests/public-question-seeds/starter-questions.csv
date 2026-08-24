@@ -1,0 +1,11 @@
+category,question,expected_intent
+malware,"How do I check if I have a virus or malware?",defensive_guidance
+incident_response,"Review the attached logs and build a cyber triage assessment.",upload_triage
+ransomware,"How can I protect my organization from ransomware?",defensive_guidance
+vulnerability,"How do I find vulnerabilities before an attacker does?",vulnerability_management
+identity,"How can I tell if a user login is malicious?",detection_triage
+training,"What are the best cyber security training paths for beginners?",training_path
+product_howto,"How do I configure Microsoft Purview DLP rules?",product_howto
+firewall,"How do I safely configure Windows Firewall rules?",secure_configuration
+exposure,"Check this domain for public security exposure.",osint_exposure
+forensics,"How do I take a memory capture for incident response?",forensic_guidance

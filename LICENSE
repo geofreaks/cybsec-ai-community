@@ -1,0 +1,20 @@
+CybSec-AI Community Materials License
+
+Copyright (c) 2026 CybSec-AI. All rights reserved.
+
+This public repository is provided for beta feedback, documentation collaboration, public issue tracking, public-safe test suggestions, and community discussion.
+
+You may read, share links to, and submit contributions to this repository for the purpose of improving CybSec-AI.
+
+You may not use this repository, its contents, or any CybSec-AI materials to:
+
+- copy, clone, reconstruct, resell, or compete with the CybSec-AI product or service;
+- reverse engineer, extract, scrape, or reproduce proprietary CybSec-AI source code, prompts, routing logic, analyzers, parsers, datasets, model orchestration, or security logic;
+- publish private incident evidence, secrets, stolen data, malware, exploit payloads, or unauthorized offensive instructions;
+- remove CybSec-AI names, notices, or attribution from official materials.
+
+Community contributions may be used by CybSec-AI to improve the product, documentation, evaluation coverage, and beta experience.
+
+The CybSec-AI hosted service, downloadable runtime package, source code, prompts, models, analyzers, datasets, evaluation logic, deployment configuration, and related proprietary materials are not licensed through this repository.
+
+Materials are provided "as is" without warranties.

@@ -1,0 +1,24 @@
+name: Upload analysis gap
+description: Report a file type or evidence workflow CybSec-AI should analyze better.
+title: "[Upload gap]: "
+labels: ["upload-analysis", "beta-feedback"]
+body:
+  - type: input
+    id: file_type
+    attributes:
+      label: File type or artifact
+      placeholder: "Example: Palo Alto config XML, EVTX export, Sentinel CSV, Zeek conn.log"
+    validations:
+      required: true
+  - type: textarea
+    id: desired
+    attributes:
+      label: Desired analysis
+      description: What findings, timeline, severity, recommendations, or validation should be produced?
+    validations:
+      required: true
+  - type: textarea
+    id: safe_sample
+    attributes:
+      label: Public-safe sample or schema
+      description: Optional sanitized sample, schema, or official format docs. Do not attach private evidence.

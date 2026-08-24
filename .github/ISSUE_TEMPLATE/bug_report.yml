@@ -1,0 +1,30 @@
+name: Bug report
+description: Report a public beta bug.
+title: "[Bug]: "
+labels: ["bug", "beta-feedback"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What broke?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the steps, browser, screen size, and page.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Add screenshots if helpful. Redact sensitive data.

@@ -1,0 +1,24 @@
+name: Feature request
+description: Suggest a beta feature, product pack, training path, or workflow improvement.
+title: "[Feature]: "
+labels: ["feature", "beta-feedback"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What user problem should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: Requested improvement
+      description: What should CybSec-AI do?
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: Public references
+      description: Official docs, standards, or examples if available.

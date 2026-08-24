@@ -1,0 +1,31 @@
+name: Ask understanding gap
+description: Report a cyber security question that CybSec-AI misunderstood.
+title: "[Ask gap]: "
+labels: ["ask-understanding", "beta-feedback"]
+body:
+  - type: textarea
+    id: ask
+    attributes:
+      label: Exact ask
+      description: Paste the exact question, with secrets and private details removed.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual response
+      description: What did CybSec-AI answer or do?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected response
+      description: What should it have understood and answered?
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: Public references
+      description: Optional official docs or public sources that should guide the answer.
