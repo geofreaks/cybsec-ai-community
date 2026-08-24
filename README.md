@@ -10,6 +10,7 @@ CybSec-AI itself is a protected cyber security AI product. The production engine
 
 - Product: https://www.cybsec-ai.com/cybsec-ai
 - Contact: contact@cybsec-ai.com
+- Project charter: docs/project-charter.md
 
 ## What Belongs Here
 
