@@ -6,6 +6,23 @@ This is the public community home for CybSec-AI beta feedback, cyber security qu
 
 CybSec-AI itself is a protected cyber security AI product. The production engine, routing logic, upload analyzers, admin console, deployment configuration, and proprietary model/evaluation logic remain private.
 
+## Why This Exists
+
+General-purpose AI is useful, but cyber security needs something more focused: a dedicated defensive AI engine built for the good guys.
+
+CybSec-AI is being built to become a world-class, free-to-access cyber security assistant and one-stop shop for authorized, non-destructive security work. The intent is to help people understand risks, investigate evidence, learn security skills, triage incidents, review exposures, harden systems, and make better defensive decisions without turning the platform into an exploit runner or destructive tool.
+
+The long-term vision is a trusted cyber security AI layer that combines:
+
+- Plain-language cyber security reasoning.
+- Current public security knowledge and official documentation.
+- Evidence-aware upload and incident analysis.
+- Defensive playbooks, training paths, and practical remediation.
+- Framework mapping across ATT&CK, CIS, NIST, OWASP, PCI, CMMC, ISO, and related standards.
+- Community feedback that improves coverage, clarity, and usefulness over time.
+
+This public repo exists so the community can help shape that future safely: suggest questions, identify gaps, improve public docs, recommend training resources, and report beta issues without exposing private product code or sensitive user evidence.
+
 ## Public Beta
 
 - Product: https://www.cybsec-ai.com/cybsec-ai
