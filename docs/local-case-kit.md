@@ -15,6 +15,6 @@ The kit is not an open-source source-code release. It is distributed as a protec
 
 Download the latest official kit from the public beta page:
 
-- https://www.cybsec-ai.com/cybsec-ai
+- https://www.cybsec-ai.com/
 
 Look for **Local copy**.
