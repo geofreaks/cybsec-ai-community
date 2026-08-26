@@ -29,6 +29,12 @@ This public repo exists so the community can help shape that future safely: sugg
 - Contact: contact@cybsec-ai.com
 - Project charter: docs/project-charter.md
 
+## Related Project
+
+- [TYRNEX-AI public runtime](https://github.com/geofreaks/tyrnex-ai-public) provides a local, protected security assessment, cyber triage, topology, and remediation reporting kit for authorized environments.
+
+CybSec-AI is the AI/analyzer workbench. TYRNEX-AI is the local assessment and evidence-generation runtime. They can exchange exported evidence and reports, but neither product requires the other to run.
+
 ## What Belongs Here
 
 Use this repo to contribute:
