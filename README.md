@@ -54,7 +54,7 @@ Do not submit secrets, exploit payloads, stolen data, private incident evidence,
 
 CybSec-AI has a protected Local Case Kit for responders who need to review large or sensitive evidence on their own workstation or USB/offline kit. The kit is distributed as a protected runtime package rather than open source.
 
-Use the public beta page's **Local copy** link to download the latest kit.
+Use the public beta page's **Local copy** link to download the latest kit. The download is served from CybSec-AI itself and does not require access to the private product repository.
 
 The Local Case Kit is intended for:
 

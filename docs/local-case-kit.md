@@ -11,7 +11,7 @@ Use it for:
 - File hashing and folder manifests.
 - Analysis of logs, configs, scanner exports, SIEM/EDR exports, firewall files, email headers, timelines, and triage summaries.
 
-The kit is not an open-source source-code release. It is distributed as a protected runtime package with checksums and local-use documentation.
+The kit is not an open-source source-code release. It is distributed as a protected runtime package with checksums and local-use documentation, and users do not need private GitHub repository access to download or run it.
 
 Download the latest official kit from the public beta page:
 
