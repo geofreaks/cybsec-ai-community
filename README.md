@@ -2,9 +2,11 @@
 
 **See Everything. Trust Nothing.**
 
-This is the public community home for CybSec-AI beta feedback, cyber security question coverage, public test ideas, documentation suggestions, training resources, and responsible issue reporting.
+This is the public community home for the web-first CybSec-AI beta: feedback, cyber security question coverage, public test ideas, documentation suggestions, training resources, and responsible issue reporting.
 
 CybSec-AI itself is a protected cyber security AI product. The production engine, routing logic, upload analyzers, admin console, deployment configuration, and proprietary model/evaluation logic remain private.
+
+The hosted web app is the primary product. The Local Case Kit is an optional protected download for large or sensitive evidence/data files that should stay on the responder workstation or local network.
 
 ## Why This Exists
 
@@ -28,6 +30,7 @@ This public repo exists so the community can help shape that future safely: sugg
 - Product: https://www.cybsec-ai.com/
 - Contact: contact@cybsec-ai.com
 - Project charter: docs/project-charter.md
+- Primary experience: web Ask and Upload.
 
 ## Related Project
 
@@ -52,7 +55,7 @@ Do not submit secrets, exploit payloads, stolen data, private incident evidence,
 
 ## Local Case Kit
 
-CybSec-AI has a protected Local Case Kit for responders who need to review large or sensitive evidence on their own workstation or USB/offline kit. The kit is distributed as a protected runtime package rather than open source.
+Because CybSec-AI is web-first, most users should start with the public beta. The protected Local Case Kit is for responders who need to review large or sensitive evidence on their own workstation, local network, or USB/offline kit. The kit is distributed as a protected runtime package rather than open source.
 
 Use the public beta page's **Local copy** link to download the latest kit. The download is served from CybSec-AI itself and does not require access to the private product repository.
 

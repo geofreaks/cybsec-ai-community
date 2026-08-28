@@ -29,8 +29,8 @@ This roadmap is intentionally public-safe and does not expose implementation det
 - Track low-confidence or generic answers.
 - Improve beta feedback review.
 
-## Local Case Kit
+## Optional Local Case Kit
 
-- Keep improving local/offline workflows for large cases.
+- Keep improving local workflows for large or sensitive cases where hosted upload is not appropriate.
 - Make update/download instructions clearer.
 - Preserve the protected runtime model.

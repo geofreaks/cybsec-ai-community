@@ -12,7 +12,7 @@ CybSec-AI is being built as a focused cyber security AI for:
 - Training paths.
 - Report generation.
 
-The public beta focuses on Ask, Upload, feedback, and local/offline case handling.
+The public beta focuses on the hosted web Ask and Upload experience, public feedback, and an optional Local Case Kit path for large or sensitive evidence.
 
 ## What We Want To Learn During Beta
 

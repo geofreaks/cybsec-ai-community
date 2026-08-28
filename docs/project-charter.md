@@ -8,6 +8,8 @@ The goal is simple:
 
 **See Everything. Trust Nothing.**
 
+The primary product is the hosted web app. The Local Case Kit is an optional protected runtime for large or sensitive evidence/data files that should remain on a responder workstation or local network.
+
 Cyber security deserves an AI system built specifically for defensive work. Most AI tools are general-purpose assistants with cyber security bolted on. CybSec-AI is being designed in the other direction: cyber security first, with reasoning, evidence handling, training, triage, and safe research built around how defenders actually work.
 
 The core reason for the project is to make high-quality cyber security help more available. New professionals should be able to learn faster. Experienced defenders should be able to triage faster. Small teams should be able to get structured guidance without needing a full security operations center. The community should have a safe place to help shape what a world-class cyber security AI should understand.
@@ -35,7 +37,7 @@ It is intended to become a broad cyber security front door for:
 - Vulnerability management and validation planning.
 - Framework and compliance crosswalks.
 - Training paths for beginners through advanced practitioners.
-- Local/offline evidence review when hosted upload is not appropriate.
+- Optional Local Case Kit evidence review when hosted upload is not appropriate.
 
 It is not intended to become a platform for destructive activity, unauthorized exploitation, credential theft, malware operation, or bypass guidance.
 
