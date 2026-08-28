@@ -14,6 +14,8 @@ CybSec-AI is being built as a focused cyber security AI for:
 
 The public beta focuses on the hosted web Ask and Upload experience, public feedback, and an optional Local Case Kit path for large or sensitive evidence.
 
+The hosted web app works from modern desktop and mobile browsers. The downloadable Local Case Kit is currently supported on Windows with Docker Desktop; macOS and Linux local packages are not supported yet.
+
 ## What We Want To Learn During Beta
 
 - Which cyber security asks are misunderstood.

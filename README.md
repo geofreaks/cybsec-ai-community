@@ -66,6 +66,12 @@ The Local Case Kit is intended for:
 - USB/offline incident response.
 - Folder-based case analysis using logs, scanner exports, firewall configs, EDR/SIEM exports, manifests, timelines, and triage output.
 
+Platform support:
+
+- Hosted web app: supported from modern desktop and mobile browsers.
+- Local Case Kit: Windows with Docker Desktop is the supported local runtime today.
+- macOS and Linux local packages are not supported yet.
+
 ## Contribution Model
 
 This repo is community-driven, but not a source release of the CybSec-AI engine.

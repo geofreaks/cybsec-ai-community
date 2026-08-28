@@ -8,7 +8,7 @@ The goal is simple:
 
 **See Everything. Trust Nothing.**
 
-The primary product is the hosted web app. The Local Case Kit is an optional protected runtime for large or sensitive evidence/data files that should remain on a responder workstation or local network.
+The primary product is the hosted web app. The Local Case Kit is an optional protected Windows runtime for large or sensitive evidence/data files that should remain on a responder workstation or local network. macOS and Linux local packages are not supported yet.
 
 Cyber security deserves an AI system built specifically for defensive work. Most AI tools are general-purpose assistants with cyber security bolted on. CybSec-AI is being designed in the other direction: cyber security first, with reasoning, evidence handling, training, triage, and safe research built around how defenders actually work.
 
