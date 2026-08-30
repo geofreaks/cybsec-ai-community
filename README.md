@@ -30,6 +30,7 @@ This public repo exists so the community can help shape that future safely: sugg
 - Product: https://www.cybsec-ai.com/
 - Contact: contact@cybsec-ai.com
 - Project charter: docs/project-charter.md
+- Beta status: docs/beta-overview.md
 - Primary experience: web Ask and Upload.
 
 ## Related Project

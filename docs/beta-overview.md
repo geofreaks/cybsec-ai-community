@@ -16,6 +16,17 @@ The public beta focuses on the hosted web Ask and Upload experience, public feed
 
 The hosted web app works from modern desktop and mobile browsers. The downloadable Local Case Kit is currently supported on Windows with Docker Desktop; macOS and Linux local packages are not supported yet.
 
+## Current Public Status
+
+Last public status refresh: 2026-08-30.
+
+- Hosted web beta is the primary CybSec-AI experience.
+- The latest private product build has passed its hosted smoke checks and deployment verification.
+- The protected Local Case Kit is served from the CybSec-AI web app and does not require access to the private source repository.
+- Community contributions should focus on misunderstood questions, public-safe test ideas, documentation, training resources, and feature feedback.
+
+Enterprise readiness items such as OIDC provisioning, multi-tenant isolation drills, dedicated embedding/reranker providers, and full disaster-recovery restore drills remain private deployment work and are not exposed through this community repository.
+
 ## What We Want To Learn During Beta
 
 - Which cyber security asks are misunderstood.
