@@ -23,7 +23,7 @@ Last public status refresh: 2026-08-30.
 - Hosted web beta is the primary CybSec-AI experience.
 - The latest private product build has passed its hosted smoke checks and deployment verification.
 - The protected Local Case Kit is served from the CybSec-AI web app and does not require access to the private source repository.
-- Latest Local Case Kit SHA-256: `041e594d121d38c1816c94b65d9785faafb72f75823054c3e6c3598c52bb9b88`.
+- Latest Local Case Kit SHA-256: `9d0e5596d8881d6330ba2885486de437f8a538869a32ee5f03d3c7cfca686fd7`.
 - Latest ask-understanding regression: short follow-up questions should keep the prior ask context, such as an EDR recommendation followed by "which are free?".
 - Community contributions should focus on misunderstood questions, public-safe test ideas, documentation, training resources, and feature feedback.
 
