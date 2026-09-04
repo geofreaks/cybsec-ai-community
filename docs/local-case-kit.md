@@ -27,4 +27,4 @@ Look for **Local copy**.
 
 Current package checksum:
 
-- `321506276486400149238bdf170e36f5910798caefd00bccc457fbb3a4bd7ab6`
+- `74392a7b39e14def53fc501bc139eb76851acb5b7e75c65d84a041f015e4ecde`
