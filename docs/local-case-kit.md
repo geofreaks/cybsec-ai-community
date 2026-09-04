@@ -24,3 +24,7 @@ Download the latest official kit from the public beta page:
 - https://www.cybsec-ai.com/
 
 Look for **Local copy**.
+
+Current package checksum:
+
+- `321506276486400149238bdf170e36f5910798caefd00bccc457fbb3a4bd7ab6`
