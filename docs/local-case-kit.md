@@ -13,6 +13,8 @@ Use it for:
 
 The kit is not an open-source source-code release. It is distributed as a protected runtime package with checksums and local-use documentation, and users do not need private GitHub repository access to download or run it.
 
+Startup includes a read-only local readiness check for common workstation blockers before Docker starts. It reports visible AV/EDR products, Microsoft Defender status when available, Controlled Folder Access, required local ports, Docker CLI availability, and local evidence write access. It does not disable security tools, add exclusions, bypass EDR, or change host policy.
+
 ## Platform Support
 
 - Hosted web app: supported from modern desktop and mobile browsers.
@@ -27,4 +29,4 @@ Look for **Local copy**.
 
 Current package checksum:
 
-- `e5a4256a68a58f19159d130bb8038e0ce4e79b10f270d397baeeaefab62462f6`
+- `dd92580ae1ff4752691cfdb86c9088f62a448443e4cc36a032ddd45301e5c264`

@@ -60,6 +60,8 @@ Because CybSec-AI is web-first, most users should start with the public beta. Th
 
 Use the public beta page's **Local copy** link to download the latest kit. The download is served from CybSec-AI itself and does not require access to the private product repository.
 
+The kit startup displays a read-only local readiness check before Docker starts. It reports common blockers such as visible AV/EDR products, Defender status when available, Controlled Folder Access, required ports, Docker CLI availability, and local evidence write access. It does not disable security tools, add exclusions, bypass EDR, or change host policy.
+
 The Local Case Kit is intended for:
 
 - Large incident files.
