@@ -27,6 +27,16 @@ Download the latest official kit from the public beta page:
 
 Look for **Local copy**.
 
-Current package checksum:
+Release checksum and deployment status: [Quality status](quality-status.md). Prepared and tested builds are distinguished from hosted downloads.
 
-- `8d784d84a745ee51010e162a2caae91901efe868572fb02661e4bc4e1fa37718`
+First install/build requires internet for Docker images and dependencies. Provision and test before disconnecting. The kit generates private role tokens on first startup and preserves an existing `.env`; keep that file private. Internet research defaults to disabled and can be explicitly enabled in local configuration.
+
+Folder analysis uses a read-only Docker mount:
+
+```powershell
+powershell -NoProfile -File .\scripts\analyze-local-case.ps1 -CasePath C:\Cases\IR-001 -Json
+```
+
+Processing is bounded. Large containers may be hashed/referenced rather than deeply decoded, and partial text analysis is disclosed. No claim of unlimited sizes or complete interpretation of every forensic artifact is made.
+
+Compiled bytecode reduces casual source exposure but is not encryption, tamper-proofing, or protection against reverse engineering. A matching checksum does not establish a publisher signature.

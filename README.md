@@ -31,6 +31,7 @@ This public repo exists so the community can help shape that future safely: sugg
 - Contact: contact@cybsec-ai.com
 - Project charter: docs/project-charter.md
 - Beta status: docs/beta-overview.md
+- Tested scope and remaining limits: [Quality status](docs/quality-status.md).
 - Primary experience: web Ask and Upload.
 
 ## Related Project
@@ -60,7 +61,9 @@ Because CybSec-AI is web-first, most users should start with the public beta. Th
 
 Use the public beta page's **Local copy** link to download the latest kit. The download is served from CybSec-AI itself and does not require access to the private product repository.
 
-The current protected kit release was rebuilt from the verified private source tree on October 7, 2026. Published ZIP SHA-256: `ecebfd5c6b8bff38c0b0b87ffc16668dc5f652076b5b3c9d746d3805f48e86d9`.
+The October 8 precision update is deployed. The official anonymous download matches the locally tested and USB artifacts. See [Quality status](docs/quality-status.md) for its checksum, verified scope, and remaining gaps.
+
+Bytecode is inspectable and can be reverse-engineered; packaging is not encryption or a guarantee against code theft. First installation needs internet for Docker images and dependencies. After provisioning, evidence analysis can run locally; this is not a self-contained fresh-install air-gap bundle. First startup generates private local credentials and defaults internet research to disabled.
 
 The kit startup displays a read-only local readiness check before Docker starts. It reports common blockers such as visible AV/EDR products, Defender status when available, Controlled Folder Access, required ports, Docker CLI availability, and local evidence write access. It does not disable security tools, add exclusions, bypass EDR, or change host policy.
 

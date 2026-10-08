@@ -18,12 +18,12 @@ The hosted web app works from modern desktop and mobile browsers. The downloadab
 
 ## Current Public Status
 
-Last public status refresh: 2026-08-30.
+Last public status refresh: 2026-10-08. See [Quality status](quality-status.md) for exact tested scope and remaining work.
 
 - Hosted web beta is the primary CybSec-AI experience.
-- The latest private product build has passed its hosted smoke checks and deployment verification.
+- The October 8 corrected source and compiled kit pass local regression and disposable API acceptance checks. The hosted deployment passed the same 46 package/API checks, and its anonymous download matches the tested kit.
 - The protected Local Case Kit is served from the CybSec-AI web app and does not require access to the private source repository.
-- Latest Local Case Kit SHA-256: `8d784d84a745ee51010e162a2caae91901efe868572fb02661e4bc4e1fa37718`.
+- Kit checksum and promotion status are maintained in [Quality status](quality-status.md).
 - Local Case Kit startup now includes a read-only AV/EDR and workstation readiness check so users can see common blockers on screen without weakening endpoint security.
 - Latest ask-understanding regression: short follow-up questions should keep the prior ask context, such as an EDR recommendation followed by "which are free?".
 - Community contributions should focus on misunderstood questions, public-safe test ideas, documentation, training resources, and feature feedback.
