@@ -60,7 +60,7 @@ Because CybSec-AI is web-first, most users should start with the public beta. Th
 
 Use the public beta page's **Local copy** link to download the latest kit. The download is served from CybSec-AI itself and does not require access to the private product repository.
 
-The current protected kit release was rebuilt from the verified private source tree on October 7, 2026. Published ZIP SHA-256: `4c74f0c55e1a89415cab3fb69b3cab07a2c6bbfafd0d4b231b1ca2c68782e09f`.
+The current protected kit release was rebuilt from the verified private source tree on October 7, 2026. Published ZIP SHA-256: `ecebfd5c6b8bff38c0b0b87ffc16668dc5f652076b5b3c9d746d3805f48e86d9`.
 
 The kit startup displays a read-only local readiness check before Docker starts. It reports common blockers such as visible AV/EDR products, Defender status when available, Controlled Folder Access, required ports, Docker CLI availability, and local evidence write access. It does not disable security tools, add exclusions, bypass EDR, or change host policy.
 
