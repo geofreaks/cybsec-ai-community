@@ -14,6 +14,7 @@ Bracketed filenames remain exact evidence references; control characters and Uni
 
 - Local source regression suite: 16,253 passed; two optional external-corpus tests skipped; one dependency deprecation warning.
 - Release harness: 34 checks passed.
+- Product CI passed its Linux regression/build/security/package checks and Windows delivery-contract job for this runtime revision.
 - New evidence regressions against the shipped compiled module: 42 passed.
 - Package/source alignment and disposable local API acceptance flows: 46 checks passed, including large-context uploads, bracketed filenames, invalid-name rejection, findings-only revisions, provenance, cookie isolation, protected endpoints, cleanup, and security headers.
 - The hosted site passed those same 46 checks, using an anonymous download from the official product endpoint. All disposable test chats were cleared.
