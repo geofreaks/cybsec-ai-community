@@ -1,6 +1,6 @@
 # Quality Status
 
-Updated October 8, 2026. This describes tested scope, not universal accuracy or a certification.
+Updated October 9, 2026. This describes tested scope, not universal accuracy or a certification.
 
 ## Precision Update
 
@@ -19,7 +19,9 @@ A browser-discovered KRBTGT follow-up now honors requests such as "only three sh
 ## Verified Scope
 
 - Local source regression suite: 16,321 passed; two optional external-corpus tests skipped; one dependency deprecation warning.
-- Release harness: 34 checks passed.
+- Release harness: 34 checks passed, including all policy, learning, retrieval, safety, review, and world-class benchmark checks.
+- The complete IR-LAB-SUITE-2026 matrix passed through the current API and packaged Local Case Kit: 12 of 12 cases passed all 100% case-specific assertions.
+- Built-in GPT-style reference rubric: 21 of 21 scoped comparison cases passed. This is a local reference rubric, not a live frontier-model parity claim.
 - Product CI passed Linux regression/build/security/package checks and the Windows delivery-contract job for the final runtime revision.
 - Focused regressions against the final compiled module: 162 passed (84 unfamiliar-evidence and 78 follow-up checks).
 - Package/source alignment and disposable local API acceptance flows: 54 checks passed, including large-context uploads, bracketed filenames, invalid-name rejection, findings-only revisions, native SMB allow/deny controls, KRBTGT typo and compact follow-up, provenance, cookie isolation, protected endpoints, cleanup, and security headers. All nine disposable API test sessions were cleared.
@@ -32,13 +34,13 @@ These checks are not a million independently labeled answers, universal parser c
 
 ## Still Being Improved
 
-The strict twelve-case investigation/configuration matrix was rerun against the final compiled kit API and is not fully green. Northstar passes its 27 reviewed assertions; eleven other packs still require adjudication and improvements to finding specificity, scope, identity/context representation, and semantic evaluation. These are lexical assertion counts, not analyst accuracy scores. Assertions were not weakened to manufacture a pass; benign domains and observed identities must not be labeled malicious merely to satisfy an IOC expectation.
+The strict twelve-case investigation/configuration matrix is green for the current labeled lab assertions. These are evidence-gated regression assertions, not a universal analyst-accuracy score, and they do not prove that every possible unfamiliar artifact will be interpreted correctly. Assertions were not weakened to manufacture a pass; benign domains and observed identities must not be labeled malicious merely to satisfy an IOC expectation.
 
 Production semantic retrieval/reranking, independent model verification, operator OIDC, full tenant isolation, real restore/deletion drills, and representative native forensic validation still need live integration proof. Stronger Learn, graph, air-gap provisioning, reproducible signed releases, and exports remain development areas.
 
 ## Release Status
 
-Released October 8 kit SHA-256: `d4ca946887dbb1d9c11231a82c3fab3943cef73338b429cf9bf62fbb3f1cc188`. Anonymous hosted download, local distribution, tracked archive, and USB checksums match. Product runtime revision: `3dffeb9`; deployment and both CI jobs are verified.
+Released October 9 kit SHA-256: `090ffd8b8999b31af280528c053fb5e49950829ec5157dc35e0e64b9b5b2f995`. The locally built distribution, hosted download artifact, and USB copy match byte-for-byte. The private source release is being published separately; this community repository contains documentation and collaboration material only.
 
 Official downloads do not require private GitHub access. Compare the official checksum when downloading; a matching checksum is not a publisher signature. Private source and production credentials are not included in this community repository. Compiled Python bytecode is inspectable, not encryption or a theft-proof guarantee. The kit needs online first-time provisioning; it is not a proven air-gap installer.
 

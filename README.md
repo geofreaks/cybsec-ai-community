@@ -61,7 +61,7 @@ Because CybSec-AI is web-first, most users should start with the public beta. Th
 
 Use the public beta page's **Local copy** link to download the latest kit. The download is served from CybSec-AI itself and does not require access to the private product repository.
 
-The October 8 precision update is deployed. The official anonymous download matches the locally tested and USB artifacts. See [Quality status](docs/quality-status.md) for its checksum, verified scope, and remaining gaps.
+The October 9 precision update is prepared from the verified private release. The official anonymous download, local distribution, and USB artifact are aligned. See [Quality status](docs/quality-status.md) for its checksum, verified scope, and remaining gaps.
 
 Bytecode is inspectable and can be reverse-engineered; packaging is not encryption or a guarantee against code theft. First installation needs internet for Docker images and dependencies. After provisioning, evidence analysis can run locally; this is not a self-contained fresh-install air-gap bundle. First startup generates private local credentials and defaults internet research to disabled.
 
