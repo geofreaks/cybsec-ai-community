@@ -22,6 +22,7 @@ A browser-discovered KRBTGT follow-up now honors requests such as "only three sh
 - Release harness: 34 checks passed, including all policy, learning, retrieval, safety, review, and world-class benchmark checks.
 - The complete IR-LAB-SUITE-2026 matrix passed through the current API and packaged Local Case Kit: 12 of 12 cases passed all 100% case-specific assertions.
 - Built-in GPT-style reference rubric: 21 of 21 scoped comparison cases passed. This is a local reference rubric, not a live frontier-model parity claim.
+- Local provider smoke checks passed with Ollama `nomic-embed-text` returning a real 768-dimensional embedding without fallback and `qwen2.5:7b` independently accepting a bounded defensive answer across subject, completeness, citation, safety, and formatting checks.
 - Product CI passed Linux regression/build/security/package checks and the Windows delivery-contract job for the final runtime revision.
 - Focused regressions against the final compiled module: 162 passed (84 unfamiliar-evidence and 78 follow-up checks).
 - Package/source alignment and disposable local API acceptance flows: 54 checks passed, including large-context uploads, bracketed filenames, invalid-name rejection, findings-only revisions, native SMB allow/deny controls, KRBTGT typo and compact follow-up, provenance, cookie isolation, protected endpoints, cleanup, and security headers. All nine disposable API test sessions were cleared.
@@ -36,7 +37,7 @@ These checks are not a million independently labeled answers, universal parser c
 
 The strict twelve-case investigation/configuration matrix is green for the current labeled lab assertions. These are evidence-gated regression assertions, not a universal analyst-accuracy score, and they do not prove that every possible unfamiliar artifact will be interpreted correctly. Assertions were not weakened to manufacture a pass; benign domains and observed identities must not be labeled malicious merely to satisfy an IOC expectation.
 
-Production semantic retrieval/reranking, independent model verification, operator OIDC, full tenant isolation, real restore/deletion drills, and representative native forensic validation still need live integration proof. Stronger Learn, graph, air-gap provisioning, reproducible signed releases, and exports remain development areas.
+Production semantic retrieval/reranking uplift, hosted operator OIDC, full tenant isolation, real restore/deletion drills, and representative native forensic validation still need live integration proof. The local second-model verifier path is exercised, but hosted coverage, failure-rate measurement, and promotion criteria remain open. Stronger Learn, graph, air-gap provisioning, reproducible signed releases, and exports remain development areas.
 
 ## Release Status
 
