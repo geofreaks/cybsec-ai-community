@@ -41,7 +41,7 @@ Production semantic retrieval/reranking uplift, hosted operator OIDC, full tenan
 
 ## Release Status
 
-Released October 9 kit SHA-256: `090ffd8b8999b31af280528c053fb5e49950829ec5157dc35e0e64b9b5b2f995`. The locally built distribution, hosted download artifact, and USB copy match byte-for-byte. The private source release is being published separately; this community repository contains documentation and collaboration material only.
+Released October 9 kit SHA-256: `81862f5225b91fd65b827abc28af725f63390813c12547e41f3cf9f247e34422`. The locally built distribution, hosted download artifact, and USB copy match byte-for-byte. The private source release is being published separately; this community repository contains documentation and collaboration material only.
 
 Official downloads do not require private GitHub access. Compare the official checksum when downloading; a matching checksum is not a publisher signature. Private source and production credentials are not included in this community repository. Compiled Python bytecode is inspectable, not encryption or a theft-proof guarantee. The kit needs online first-time provisioning; it is not a proven air-gap installer.
 
