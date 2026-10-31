@@ -1,6 +1,10 @@
 # Quality Status
 
-Updated October 9, 2026. This describes tested scope, not universal accuracy or a certification.
+Updated October 31, 2026. This describes tested scope, not universal accuracy or a certification.
+
+## Current Release Refresh
+
+The latest synchronized release adds targeted handling for current-vulnerability questions, including PHP and other named products, a freshness boundary for extractive fallback answers, live embedding/reranker capability probes, and a refusal regression for credential-phishing requests. The deterministic one-million-question contract corpus and its tests are included in the private source release; they validate routing, safety, follow-up contracts, and question understanding categories rather than one million independently fact-checked answers.
 
 ## Precision Update
 
@@ -18,7 +22,8 @@ A browser-discovered KRBTGT follow-up now honors requests such as "only three sh
 
 ## Verified Scope
 
-- Local source regression suite: 16,321 passed; two optional external-corpus tests skipped; one dependency deprecation warning.
+- Local source regression suite: 16,340 passed; two optional external-corpus tests skipped; one dependency deprecation warning.
+- Protected Local Case Kit archive gate: 8 of 8 checks passed, including checksum, archive-path safety, exclusion of private state, compiled-engine presence, bootstrap files, security configuration, and source-manifest alignment.
 - Release harness: 34 checks passed, including all policy, learning, retrieval, safety, review, and world-class benchmark checks.
 - The complete IR-LAB-SUITE-2026 matrix passed through the current API and packaged Local Case Kit: 12 of 12 cases passed all 100% case-specific assertions.
 - Built-in GPT-style reference rubric: 21 of 21 scoped comparison cases passed. This is a local reference rubric, not a live frontier-model parity claim.
@@ -41,7 +46,7 @@ Production semantic retrieval/reranking uplift, hosted operator OIDC, full tenan
 
 ## Release Status
 
-Released October 9 kit SHA-256: `81862f5225b91fd65b827abc28af725f63390813c12547e41f3cf9f247e34422`. The locally built distribution, hosted download artifact, and USB copy match byte-for-byte. The private source release is being published separately; this community repository contains documentation and collaboration material only.
+Released October 31 kit SHA-256: `6a3325f075af9d1d5b4d8bcb0c661059f3660c067d5500d8c5e09d47790697e8`. The locally built distribution, hosted download artifact, and USB copy match byte-for-byte. The private source release is published separately; this community repository contains documentation and collaboration material only.
 
 Official downloads do not require private GitHub access. Compare the official checksum when downloading; a matching checksum is not a publisher signature. Private source and production credentials are not included in this community repository. Compiled Python bytecode is inspectable, not encryption or a theft-proof guarantee. The kit needs online first-time provisioning; it is not a proven air-gap installer.
 
