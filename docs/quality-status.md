@@ -22,7 +22,7 @@ A browser-discovered KRBTGT follow-up now honors requests such as "only three sh
 
 ## Verified Scope
 
-- Local source regression suite: 16,346 passed; two optional external-corpus tests skipped; one dependency deprecation warning.
+- Local source regression suite: 16,347 passed; two optional external-corpus tests skipped; one dependency deprecation warning.
 - Protected Local Case Kit archive gate: 8 of 8 checks passed, including checksum, archive-path safety, exclusion of private state, compiled-engine presence, bootstrap files, security configuration, and source-manifest alignment.
 - Release harness: 34 checks passed, including all policy, learning, retrieval, safety, review, and world-class benchmark checks.
 - The complete IR-LAB-SUITE-2026 matrix passed through the current API and packaged Local Case Kit: 12 of 12 cases passed all 100% case-specific assertions.
@@ -46,7 +46,7 @@ Production semantic retrieval/reranking uplift, hosted operator OIDC, full tenan
 
 ## Release Status
 
-Released October 31 kit SHA-256: `a5c909a003ae74a25095cf3ba7f3243c39428bd31a7081bb4dfaae4b89747513`. The locally built distribution, hosted download artifact, and USB copy match byte-for-byte. The private source release is published separately; this community repository contains documentation and collaboration material only.
+Released October 31 kit SHA-256: `d5394da23638ca00b70b04607ee38023289a86af60dd463752e0a06b35729eee`. The locally built distribution, hosted download artifact, and USB copy match byte-for-byte. The private source release is published separately; this community repository contains documentation and collaboration material only.
 
 Official downloads do not require private GitHub access. Compare the official checksum when downloading; a matching checksum is not a publisher signature. Private source and production credentials are not included in this community repository. Compiled Python bytecode is inspectable, not encryption or a theft-proof guarantee. The kit needs online first-time provisioning; it is not a proven air-gap installer.
 
