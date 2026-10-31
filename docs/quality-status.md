@@ -4,7 +4,7 @@ Updated October 31, 2026. This describes tested scope, not universal accuracy or
 
 ## Current Release Refresh
 
-The latest synchronized release adds targeted handling for current-vulnerability questions, including conversational wording such as “the PHP vuln everyone’s talking about,” a freshness boundary for extractive fallback answers, live embedding/reranker capability probes, and a refusal regression for credential-phishing requests. The deterministic one-million-question contract corpus and its tests are included in the private source release; they validate routing, safety, follow-up contracts, and question understanding categories rather than one million independently fact-checked answers.
+The latest synchronized release adds targeted handling for current-vulnerability questions, including conversational wording such as “the PHP vuln everyone’s talking about,” “what vulnerability is going around,” and “the big security issue right now.” It also enforces a freshness boundary for extractive fallback answers, exposes live embedding/reranker capability probes, and includes a refusal regression for credential-phishing requests. The deterministic one-million-question contract corpus and its tests are included in the private source release; they validate routing, safety, follow-up contracts, and question understanding categories rather than one million independently fact-checked answers.
 
 ## Precision Update
 
@@ -22,7 +22,7 @@ A browser-discovered KRBTGT follow-up now honors requests such as "only three sh
 
 ## Verified Scope
 
-- Local source regression suite: 16,343 passed; two optional external-corpus tests skipped; one dependency deprecation warning.
+- Local source regression suite: 16,346 passed; two optional external-corpus tests skipped; one dependency deprecation warning.
 - Protected Local Case Kit archive gate: 8 of 8 checks passed, including checksum, archive-path safety, exclusion of private state, compiled-engine presence, bootstrap files, security configuration, and source-manifest alignment.
 - Release harness: 34 checks passed, including all policy, learning, retrieval, safety, review, and world-class benchmark checks.
 - The complete IR-LAB-SUITE-2026 matrix passed through the current API and packaged Local Case Kit: 12 of 12 cases passed all 100% case-specific assertions.
@@ -46,7 +46,7 @@ Production semantic retrieval/reranking uplift, hosted operator OIDC, full tenan
 
 ## Release Status
 
-Released October 31 kit SHA-256: `b287a0dd29d99beaf7437a6de215dcb3134a1ab8182a489f9f03dc204f0ea61e`. The locally built distribution, hosted download artifact, and USB copy match byte-for-byte. The private source release is published separately; this community repository contains documentation and collaboration material only.
+Released October 31 kit SHA-256: `a5c909a003ae74a25095cf3ba7f3243c39428bd31a7081bb4dfaae4b89747513`. The locally built distribution, hosted download artifact, and USB copy match byte-for-byte. The private source release is published separately; this community repository contains documentation and collaboration material only.
 
 Official downloads do not require private GitHub access. Compare the official checksum when downloading; a matching checksum is not a publisher signature. Private source and production credentials are not included in this community repository. Compiled Python bytecode is inspectable, not encryption or a theft-proof guarantee. The kit needs online first-time provisioning; it is not a proven air-gap installer.
 
